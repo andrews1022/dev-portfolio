@@ -20,7 +20,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <html lang="en">
       <body
-        className={`bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900 ${inter.className}`}
+        className={`leading-relaxed text-slate-900 antialiased selection:bg-teal-300 selection:text-teal-900 ${inter.className}`}
       >
         {children}
       </body>
