@@ -28,7 +28,7 @@ const SocialLinks = (): JSX.Element => {
           return (
             <li key={link.href} className="mr-5 text-xs">
               <a
-                className="block hover:text-orange-500"
+                className="block hover:text-orange-500 focus:text-orange-500"
                 href={link.href}
                 target="_blank"
                 rel="noreferrer"

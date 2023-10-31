@@ -1,6 +1,11 @@
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 
+import { About } from "@/components/sections/about";
+import { Experience } from "@/components/sections/experience";
+import { Projects } from "@/components/sections/projects";
+import { Writing } from "@/components/sections/writing";
+
 const HomePage = (): JSX.Element => {
   return (
     <div className="relative">
@@ -9,7 +14,7 @@ const HomePage = (): JSX.Element => {
           <Header />
 
           <main id="content" className="pt-24 lg:w-1/2 lg:py-24">
-            <section
+            {/* <section
               aria-label="About me"
               className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
               id="about"
@@ -161,9 +166,10 @@ const HomePage = (): JSX.Element => {
                   .
                 </p>
               </div>
-            </section>
+            </section> */}
+            <About />
 
-            <section
+            {/* <section
               id="experience"
               className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
               aria-label="Work experience"
@@ -702,8 +708,10 @@ const HomePage = (): JSX.Element => {
                   </a>
                 </div>
               </div>
-            </section>
-            <section
+            </section> */}
+            <Experience />
+
+            {/* <section
               id="projects"
               className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
               aria-label="Selected projects"
@@ -1075,8 +1083,10 @@ const HomePage = (): JSX.Element => {
                   </a>
                 </div>
               </div>
-            </section>
-            <section
+            </section> */}
+            <Projects />
+
+            {/* <section
               id="writing"
               className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
               aria-label="Blog posts"
@@ -1196,7 +1206,8 @@ const HomePage = (): JSX.Element => {
                   </li>
                 </ul>
               </div>
-            </section>
+            </section> */}
+            <Writing />
 
             <Footer />
           </main>
