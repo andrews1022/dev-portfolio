@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { JumpLinks } from "@/components/jump-links";
+import { SocialLinks } from "@/components/social-links";
 
 const Header = (): JSX.Element => {
   return (
@@ -21,7 +22,8 @@ const Header = (): JSX.Element => {
         <JumpLinks />
       </div>
 
-      <ul className="ml-1 mt-8 flex items-center" aria-label="Social media links">
+      <SocialLinks />
+      {/* <ul className="ml-1 mt-8 flex items-center" aria-label="Social media links">
         <li className="mr-5 text-xs">
           <a
             className="block hover:text-slate-200"
@@ -104,7 +106,7 @@ const Header = (): JSX.Element => {
             </svg>
           </a>
         </li>
-      </ul>
+      </ul> */}
     </header>
   );
 };
