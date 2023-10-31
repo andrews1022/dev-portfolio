@@ -50,6 +50,7 @@
       }
     ],
     "@typescript-eslint/explicit-function-return-type": "warn",
+    "@typescript-eslint/no-unused-vars": "warn",
     "react/react-in-jsx-scope": "off",
     "no-trailing-spaces": "warn"
   }

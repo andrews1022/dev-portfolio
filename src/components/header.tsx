@@ -1,11 +1,13 @@
-import { JumpLinks } from "./jump-links";
+import Link from "next/link";
+
+import { JumpLinks } from "@/components/jump-links";
 
 const Header = (): JSX.Element => {
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
       <div>
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-          <a href="/">Andrew Shearer</a>
+          <Link href="/">Andrew Shearer</Link>
         </h1>
 
         <h2 className="mt-3 text-lg font-medium tracking-tight sm:text-xl">
@@ -19,7 +21,7 @@ const Header = (): JSX.Element => {
         <JumpLinks />
       </div>
 
-      <ul className="ml-1 mt-8 flex items-center" aria-label="Social media">
+      <ul className="ml-1 mt-8 flex items-center" aria-label="Social media links">
         <li className="mr-5 text-xs">
           <a
             className="block hover:text-slate-200"

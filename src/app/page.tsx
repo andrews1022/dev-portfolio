@@ -18,6 +18,7 @@ const HomePage = (): JSX.Element => {
                   About
                 </h2>
               </div>
+
               <div>
                 <p className="mb-4">
                   Back in 2012, I decided to try my hand at creating custom Tumblr themes and
@@ -564,22 +565,26 @@ const HomePage = (): JSX.Element => {
                             </a>
                           </li>
                         </ul>
+
                         <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
                           <li className="mr-1.5 mt-2">
                             <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
                               Cordova
                             </div>
                           </li>
+
                           <li className="mr-1.5 mt-2">
                             <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
                               Backbone
                             </div>
                           </li>
+
                           <li className="mr-1.5 mt-2">
                             <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
                               JavaScript
                             </div>
                           </li>
+
                           <li className="mr-1.5 mt-2">
                             <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
                               CSS
