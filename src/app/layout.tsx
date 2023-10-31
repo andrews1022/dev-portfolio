@@ -16,7 +16,7 @@ type RootLayoutProps = {
   children: ReactNode;
 };
 
-const RootLayout = ({ children }: RootLayoutProps) => {
+const RootLayout = ({ children }: RootLayoutProps): JSX.Element => {
   return (
     <html lang="en">
       <body

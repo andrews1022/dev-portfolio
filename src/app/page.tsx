@@ -1,6 +1,6 @@
 import { Header } from "@/components/header";
 
-const HomePage = () => {
+const HomePage = (): JSX.Element => {
   return (
     <div className="relative">
       <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
@@ -22,7 +22,8 @@ const HomePage = () => {
                 <p className="mb-4">
                   Back in 2012, I decided to try my hand at creating custom Tumblr themes and
                   tumbled head first into the rabbit hole of coding and web development.
-                  Fast-forward to today, and I’ve had the privilege of building software for an
+                  Fast-forward to today, and I&rsquo;ve had the privilege of building software for
+                  an
                   <a
                     className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
                     href="https://us.mullenlowe.com/"
@@ -71,7 +72,7 @@ const HomePage = () => {
                   >
                     Upstatement
                   </a>
-                  . In my free time I've also released an
+                  . In my free time I&apos;ve also released an
                   <a
                     className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
                     href="https://www.newline.co/courses/build-a-spotify-connected-app"
@@ -83,8 +84,8 @@ const HomePage = () => {
                   that covers everything you need to know to build a web app with the Spotify API.
                 </p>
                 <p>
-                  When I’m not at the computer, I’m usually rock climbing, hanging out with my wife
-                  and two cats, or running around Hyrule searching for
+                  When I&apos;m not at the computer, I&apos;m usually rock climbing, hanging out
+                  with my wife and two cats, or running around Hyrule searching for
                   <span className="group/korok inline-flex lg:cursor-[url('/images/koroks/Elma.png'),_pointer] lg:font-medium lg:text-slate-200">
                     <span className="sr-only">Korok seeds</span>
                     <span
@@ -202,9 +203,9 @@ const HomePage = () => {
                                     aria-hidden="true"
                                   >
                                     <path
-                                      fill-rule="evenodd"
+                                      fillRule="evenodd"
                                       d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                                      clip-rule="evenodd"
+                                      clipRule="evenodd"
                                     ></path>
                                   </svg>
                                 </span>
@@ -301,9 +302,9 @@ const HomePage = () => {
                                     aria-hidden="true"
                                   >
                                     <path
-                                      fill-rule="evenodd"
+                                      fillRule="evenodd"
                                       d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                                      clip-rule="evenodd"
+                                      clipRule="evenodd"
                                     ></path>
                                   </svg>
                                 </span>
@@ -313,7 +314,7 @@ const HomePage = () => {
                         </h3>
                         <p className="mt-2 text-sm leading-normal">
                           Developed and styled interactive web apps for Apple Music, including the
-                          UI of Apple Music’s embeddable web player widget for in-browser user
+                          UI of Apple Music&apos;s embeddable web player widget for in-browser user
                           authorization and full song playback.
                         </p>
                         <ul className="mt-2 flex flex-wrap" aria-label="Related links">
@@ -435,9 +436,9 @@ const HomePage = () => {
                                     aria-hidden="true"
                                   >
                                     <path
-                                      fill-rule="evenodd"
+                                      fillRule="evenodd"
                                       d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                                      clip-rule="evenodd"
+                                      clipRule="evenodd"
                                     ></path>
                                   </svg>
                                 </span>
@@ -507,9 +508,9 @@ const HomePage = () => {
                                     aria-hidden="true"
                                   >
                                     <path
-                                      fill-rule="evenodd"
+                                      fillRule="evenodd"
                                       d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                                      clip-rule="evenodd"
+                                      clipRule="evenodd"
                                     ></path>
                                   </svg>
                                 </span>
@@ -518,8 +519,8 @@ const HomePage = () => {
                           </div>
                         </h3>
                         <p className="mt-2 text-sm leading-normal">
-                          Worked with the UI team to engineer and improve major features of Starry’s
-                          customer-facing Android app.
+                          Worked with the UI team to engineer and improve major features of
+                          Starry&apos;s customer-facing Android app.
                         </p>
                         <ul className="mt-2 flex flex-wrap" aria-label="Related links">
                           <li className="mr-4">
@@ -620,9 +621,9 @@ const HomePage = () => {
                                     aria-hidden="true"
                                   >
                                     <path
-                                      fill-rule="evenodd"
+                                      fillRule="evenodd"
                                       d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                                      clip-rule="evenodd"
+                                      clipRule="evenodd"
                                     ></path>
                                   </svg>
                                 </span>
@@ -683,9 +684,9 @@ const HomePage = () => {
                           aria-hidden="true"
                         >
                           <path
-                            fill-rule="evenodd"
+                            fillRule="evenodd"
                             d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                            clip-rule="evenodd"
+                            clipRule="evenodd"
                           ></path>
                         </svg>
                       </span>
@@ -731,9 +732,9 @@ const HomePage = () => {
                                   aria-hidden="true"
                                 >
                                   <path
-                                    fill-rule="evenodd"
+                                    fillRule="evenodd"
                                     d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                                    clip-rule="evenodd"
+                                    clipRule="evenodd"
                                   ></path>
                                 </svg>
                               </span>
@@ -788,9 +789,9 @@ const HomePage = () => {
                                   aria-hidden="true"
                                 >
                                   <path
-                                    fill-rule="evenodd"
+                                    fillRule="evenodd"
                                     d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                                    clip-rule="evenodd"
+                                    clipRule="evenodd"
                                   ></path>
                                 </svg>
                               </span>
@@ -818,9 +819,9 @@ const HomePage = () => {
                             aria-hidden="true"
                           >
                             <path
-                              fill-rule="evenodd"
+                              fillRule="evenodd"
                               d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
-                              clip-rule="evenodd"
+                              clipRule="evenodd"
                             ></path>
                           </svg>
                           <span>573</span>
@@ -890,9 +891,9 @@ const HomePage = () => {
                                   aria-hidden="true"
                                 >
                                   <path
-                                    fill-rule="evenodd"
+                                    fillRule="evenodd"
                                     d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                                    clip-rule="evenodd"
+                                    clipRule="evenodd"
                                   ></path>
                                 </svg>
                               </span>
@@ -964,9 +965,9 @@ const HomePage = () => {
                                   aria-hidden="true"
                                 >
                                   <path
-                                    fill-rule="evenodd"
+                                    fillRule="evenodd"
                                     d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                                    clip-rule="evenodd"
+                                    clipRule="evenodd"
                                   ></path>
                                 </svg>
                               </span>
@@ -991,9 +992,9 @@ const HomePage = () => {
                             aria-hidden="true"
                           >
                             <path
-                              fill-rule="evenodd"
+                              fillRule="evenodd"
                               d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z"
-                              clip-rule="evenodd"
+                              clipRule="evenodd"
                             ></path>
                           </svg>
                           <span>6,717</span>
@@ -1056,9 +1057,9 @@ const HomePage = () => {
                           aria-hidden="true"
                         >
                           <path
-                            fill-rule="evenodd"
+                            fillRule="evenodd"
                             d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                            clip-rule="evenodd"
+                            clipRule="evenodd"
                           ></path>
                         </svg>
                       </span>
@@ -1120,9 +1121,9 @@ const HomePage = () => {
                                   aria-hidden="true"
                                 >
                                   <path
-                                    fill-rule="evenodd"
+                                    fillRule="evenodd"
                                     d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                                    clip-rule="evenodd"
+                                    clipRule="evenodd"
                                   ></path>
                                 </svg>
                               </span>
@@ -1173,9 +1174,9 @@ const HomePage = () => {
                                   aria-hidden="true"
                                 >
                                   <path
-                                    fill-rule="evenodd"
+                                    fillRule="evenodd"
                                     d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
-                                    clip-rule="evenodd"
+                                    clipRule="evenodd"
                                   ></path>
                                 </svg>
                               </span>
@@ -1248,32 +1249,6 @@ const HomePage = () => {
               </p>
             </footer>
           </main>
-          <div>
-            <button
-              className="hover:-text-teal-300 absolute bottom-0 right-0 inline-flex items-center px-2 py-4 font-medium text-slate-400 hover:-translate-y-2 focus-visible:text-teal-300"
-              type="button"
-              aria-haspopup="dialog"
-              aria-expanded="false"
-              aria-controls="radix-:R4l6:"
-              data-state="closed"
-            >
-              <span className="sr-only">Click to time travel</span>
-              <img
-                alt="Spinning Tardis from Doctor Who"
-                loading="lazy"
-                width="100"
-                height="86"
-                decoding="async"
-                data-nimg="1"
-                style={{ color: "transparent" }}
-                srcSet="
-              /_next/image?url=%2Fimages%2Ftardis%2Frotate.gif&amp;w=128&amp;q=75 1x,
-              /_next/image?url=%2Fimages%2Ftardis%2Frotate.gif&amp;w=256&amp;q=75 2x
-            "
-                src="/_next/image?url=%2Fimages%2Ftardis%2Frotate.gif&amp;w=256&amp;q=75"
-              />
-            </button>
-          </div>
         </div>
       </div>
     </div>
