@@ -12,9 +12,9 @@ const JumpLinks = (): JSX.Element => {
           return (
             <li key={link.href}>
               <a className="group flex items-center py-3" href={link.href}>
-                <span className="nav-indicator mr-4 h-px w-8 bg-slate-900 transition-all group-hover:w-16 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none" />
+                <span className="nav-indicator mr-4 h-px w-8 bg-slate-900 transition-all group-hover:w-16 group-focus-visible:w-16 group-hover:bg-orange-500 group-focus-visible:bg-orange-500 motion-reduce:transition-none" />
 
-                <span className="nav-text text-xs font-bold uppercase tracking-widest group-focus-visible:text-slate-200">
+                <span className="nav-text text-xs font-bold uppercase tracking-widest group-hover:text-orange-500 group-focus-visible:text-orange-500">
                   {link.text}
                 </span>
               </a>
