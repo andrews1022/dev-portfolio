@@ -49,6 +49,8 @@
         }
       }
     ],
-    "react/react-in-jsx-scope": "off"
+    "@typescript-eslint/explicit-function-return-type": "warn",
+    "react/react-in-jsx-scope": "off",
+    "no-trailing-spaces": "warn"
   }
 }
