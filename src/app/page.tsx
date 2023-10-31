@@ -1,3 +1,4 @@
+import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 
 const HomePage = (): JSX.Element => {
@@ -9,9 +10,9 @@ const HomePage = (): JSX.Element => {
 
           <main id="content" className="pt-24 lg:w-1/2 lg:py-24">
             <section
-              id="about"
-              className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
               aria-label="About me"
+              className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+              id="about"
             >
               <div className="sticky top-0 z-20 -mx-6 mb-4 w-screen bg-slate-900/75 px-6 py-5 backdrop-blur md:-mx-12 md:px-12 lg:sr-only lg:relative lg:top-auto lg:mx-auto lg:w-full lg:px-0 lg:py-0 lg:opacity-0">
                 <h2 className="text-sm font-bold uppercase tracking-widest text-slate-200 lg:sr-only">
@@ -24,36 +25,36 @@ const HomePage = (): JSX.Element => {
                   Back in 2012, I decided to try my hand at creating custom Tumblr themes and
                   tumbled head first into the rabbit hole of coding and web development.
                   Fast-forward to today, and I&rsquo;ve had the privilege of building software for
-                  an
+                  an{" "}
                   <a
-                    className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+                    className="font-medium text-slate-200 hover:text-orange-300 focus-visible:text-orange-300"
                     href="https://us.mullenlowe.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     advertising agency
                   </a>
-                  , a
+                  , a{" "}
                   <a
-                    className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+                    className="font-medium text-slate-200 hover:text-orange-300 focus-visible:text-orange-300"
                     href="https://starry.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     start-up
                   </a>
-                  , a
+                  , a{" "}
                   <a
-                    className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+                    className="font-medium text-slate-200 hover:text-orange-300 focus-visible:text-orange-300"
                     href="https://scout.camd.northeastern.edu/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     student-led design studio
                   </a>
-                  , and a
+                  , and a{" "}
                   <a
-                    className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+                    className="font-medium text-slate-200 hover:text-orange-300 focus-visible:text-orange-300"
                     href="https://www.apple.com/apple-music/"
                     target="_blank"
                     rel="noreferrer"
@@ -62,20 +63,21 @@ const HomePage = (): JSX.Element => {
                   </a>
                   .
                 </p>
+
                 <p className="mb-4">
                   My main focus these days is building products and leading projects for our clients
-                  at
+                  at{" "}
                   <a
-                    className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+                    className="font-medium text-slate-200 hover:text-orange-300 focus-visible:text-orange-300"
                     href="https://upstatement.com/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     Upstatement
                   </a>
-                  . In my free time I&apos;ve also released an
+                  . In my free time I&apos;ve also released an{" "}
                   <a
-                    className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
+                    className="font-medium text-slate-200 hover:text-orange-300 focus-visible:text-orange-300"
                     href="https://www.newline.co/courses/build-a-spotify-connected-app"
                     target="_blank"
                     rel="noreferrer"
@@ -86,7 +88,7 @@ const HomePage = (): JSX.Element => {
                 </p>
                 <p>
                   When I&apos;m not at the computer, I&apos;m usually rock climbing, hanging out
-                  with my wife and two cats, or running around Hyrule searching for
+                  with my wife and two cats, or running around Hyrule searching for{" "}
                   <span className="group/korok inline-flex lg:cursor-[url('/images/koroks/Elma.png'),_pointer] lg:font-medium lg:text-slate-200">
                     <span className="sr-only">Korok seeds</span>
                     <span
@@ -120,7 +122,7 @@ const HomePage = (): JSX.Element => {
                       k
                     </span>
                     <span
-                      className="group-hover/korok:text-teal-400 transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]"
+                      className="group-hover/korok:text-orange-400 transition duration-75 group-hover/korok:-translate-y-px delay-[175ms]"
                       aria-hidden="true"
                     >
                       &nbsp;
@@ -186,7 +188,7 @@ const HomePage = (): JSX.Element => {
                         <h3 className="font-medium leading-snug text-slate-200">
                           <div>
                             <a
-                              className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                              className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-orange-300 focus-visible:text-orange-300 group/link text-base"
                               href="https://upstatement.com"
                               target="_blank"
                               rel="noreferrer"
@@ -234,37 +236,37 @@ const HomePage = (): JSX.Element => {
                         </p>
                         <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               React
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               React Native
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               SCSS
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               WordPress
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               JavaScript
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               TypeScript
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               PHP
                             </div>
                           </li>
@@ -285,7 +287,7 @@ const HomePage = (): JSX.Element => {
                         <h3 className="font-medium leading-snug text-slate-200">
                           <div>
                             <a
-                              className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                              className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-orange-300 focus-visible:text-orange-300 group/link text-base"
                               href="https://www.apple.com/apple-music/"
                               target="_blank"
                               rel="noreferrer"
@@ -322,7 +324,7 @@ const HomePage = (): JSX.Element => {
                         <ul className="mt-2 flex flex-wrap" aria-label="Related links">
                           <li className="mr-4">
                             <a
-                              className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+                              className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-orange-300 focus-visible:text-orange-300"
                               href="https://developer.apple.com/documentation/musickitjs"
                               target="_blank"
                               rel="noreferrer"
@@ -342,7 +344,7 @@ const HomePage = (): JSX.Element => {
                           </li>
                           <li className="mr-4">
                             <a
-                              className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+                              className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-orange-300 focus-visible:text-orange-300"
                               href="https://9to5mac.com/2018/06/03/apple-music-embeddable-web-player-listen-browser/"
                               target="_blank"
                               rel="noreferrer"
@@ -362,7 +364,7 @@ const HomePage = (): JSX.Element => {
                           </li>
                           <li className="mr-4">
                             <a
-                              className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+                              className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-orange-300 focus-visible:text-orange-300"
                               href="https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming"
                               target="_blank"
                               rel="noreferrer"
@@ -383,22 +385,22 @@ const HomePage = (): JSX.Element => {
                         </ul>
                         <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               Ember
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               SCSS
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               JavaScript
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               MusicKit.js
                             </div>
                           </li>
@@ -419,7 +421,7 @@ const HomePage = (): JSX.Element => {
                         <h3 className="font-medium leading-snug text-slate-200">
                           <div>
                             <a
-                              className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                              className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-orange-300 focus-visible:text-orange-300 group/link text-base"
                               href="https://scout.camd.northeastern.edu/"
                               target="_blank"
                               rel="noreferrer"
@@ -455,22 +457,22 @@ const HomePage = (): JSX.Element => {
                         </p>
                         <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               Jekyll
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               SCSS
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               JavaScript
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               WordPress
                             </div>
                           </li>
@@ -491,7 +493,7 @@ const HomePage = (): JSX.Element => {
                         <h3 className="font-medium leading-snug text-slate-200">
                           <div>
                             <a
-                              className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                              className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-orange-300 focus-visible:text-orange-300 group/link text-base"
                               href="https://starry.com/"
                               target="_blank"
                               rel="noreferrer"
@@ -527,7 +529,7 @@ const HomePage = (): JSX.Element => {
                         <ul className="mt-2 flex flex-wrap" aria-label="Related links">
                           <li className="mr-4">
                             <a
-                              className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+                              className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-orange-300 focus-visible:text-orange-300"
                               href="https://play.google.com/store/apps/details?id=com.starry.management&amp;hl=en_US&amp;gl=US"
                               target="_blank"
                               rel="noreferrer"
@@ -547,7 +549,7 @@ const HomePage = (): JSX.Element => {
                           </li>
                           <li className="mr-4">
                             <a
-                              className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+                              className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-orange-300 focus-visible:text-orange-300"
                               href="https://starry.com/blog/product/whats-new-screentime-just-got-better-for-parents"
                               target="_blank"
                               rel="noreferrer"
@@ -569,25 +571,25 @@ const HomePage = (): JSX.Element => {
 
                         <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               Cordova
                             </div>
                           </li>
 
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               Backbone
                             </div>
                           </li>
 
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               JavaScript
                             </div>
                           </li>
 
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               CSS
                             </div>
                           </li>
@@ -608,7 +610,7 @@ const HomePage = (): JSX.Element => {
                         <h3 className="font-medium leading-snug text-slate-200">
                           <div>
                             <a
-                              className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                              className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-orange-300 focus-visible:text-orange-300 group/link text-base"
                               href="https://us.mullenlowe.com/"
                               target="_blank"
                               rel="noreferrer"
@@ -644,22 +646,22 @@ const HomePage = (): JSX.Element => {
                         </p>
                         <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               HTML
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               CSS
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               JavaScript
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               jQuery
                             </div>
                           </li>
@@ -675,11 +677,11 @@ const HomePage = (): JSX.Element => {
                     href="/resume.pdf"
                   >
                     <span>
-                      <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
+                      <span className="border-b border-transparent pb-px transition group-hover:border-orange-300 motion-reduce:transition-none">
                         View Full{" "}
                       </span>
                       <span className="whitespace-nowrap">
-                        <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
+                        <span className="border-b border-transparent pb-px transition group-hover:border-orange-300 motion-reduce:transition-none">
                           Résumé
                         </span>
                         <svg
@@ -719,7 +721,7 @@ const HomePage = (): JSX.Element => {
                       <div className="z-10 sm:order-2 sm:col-span-6">
                         <h3>
                           <a
-                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-orange-300 focus-visible:text-orange-300 group/link text-base"
                             href="https://www.newline.co/courses/build-a-spotify-connected-app"
                             target="_blank"
                             rel="noreferrer"
@@ -776,7 +778,7 @@ const HomePage = (): JSX.Element => {
                       <div className="z-10 sm:order-2 sm:col-span-6">
                         <h3>
                           <a
-                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-orange-300 focus-visible:text-orange-300 group/link text-base"
                             href="https://spotify-profile.herokuapp.com/"
                             target="_blank"
                             rel="noreferrer"
@@ -811,7 +813,7 @@ const HomePage = (): JSX.Element => {
                           your existing playlists and more.
                         </p>
                         <a
-                          className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+                          className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-orange-300 focus-visible:text-orange-300"
                           href="https://github.com/bchiang7/spotify-profile"
                           target="_blank"
                           rel="noreferrer"
@@ -834,22 +836,22 @@ const HomePage = (): JSX.Element => {
                         </a>
                         <ul className="mt-2 flex flex-wrap" aria-label="Technologies used:">
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               React
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               Express
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               Spotify API
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               Heroku
                             </div>
                           </li>
@@ -878,7 +880,7 @@ const HomePage = (): JSX.Element => {
                       <div className="z-10 sm:order-2 sm:col-span-6">
                         <h3>
                           <a
-                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-orange-300 focus-visible:text-orange-300 group/link text-base"
                             href="https://halcyon-theme.netlify.app/"
                             target="_blank"
                             rel="noreferrer"
@@ -910,7 +912,7 @@ const HomePage = (): JSX.Element => {
                           Minimal dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more.
                         </p>
                         <a
-                          className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+                          className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-orange-300 focus-visible:text-orange-300"
                           href="https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode"
                           target="_blank"
                           rel="noreferrer"
@@ -952,7 +954,7 @@ const HomePage = (): JSX.Element => {
                       <div className="z-10 sm:order-2 sm:col-span-6">
                         <h3>
                           <a
-                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-orange-300 focus-visible:text-orange-300 group/link text-base"
                             href="https://v4.brittanychiang.com/"
                             target="_blank"
                             rel="noreferrer"
@@ -984,7 +986,7 @@ const HomePage = (): JSX.Element => {
                           An old portfolio site built with Gatsby with 6k+ stars and 3k+ forks
                         </p>
                         <a
-                          className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-300 focus-visible:text-teal-300"
+                          className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-orange-300 focus-visible:text-orange-300"
                           href="https://github.com/bchiang7/v4"
                           target="_blank"
                           rel="noreferrer"
@@ -1007,17 +1009,17 @@ const HomePage = (): JSX.Element => {
                         </a>
                         <ul className="mt-2 flex flex-wrap" aria-label="Technologies used:">
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               Gatsby
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               Styled Components
                             </div>
                           </li>
                           <li className="mr-1.5 mt-2">
-                            <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300">
+                            <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
                               Netlify
                             </div>
                           </li>
@@ -1048,11 +1050,11 @@ const HomePage = (): JSX.Element => {
                     href="/archive"
                   >
                     <span>
-                      <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
+                      <span className="border-b border-transparent pb-px transition group-hover:border-orange-300 motion-reduce:transition-none">
                         View Full Project{" "}
                       </span>
                       <span className="whitespace-nowrap">
-                        <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
+                        <span className="border-b border-transparent pb-px transition group-hover:border-orange-300 motion-reduce:transition-none">
                           Archive
                         </span>
                         <svg
@@ -1108,7 +1110,7 @@ const HomePage = (): JSX.Element => {
                         <p className="-mt-1 text-sm font-semibold leading-6">2020</p>
                         <h3 className="-mt-1">
                           <a
-                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-orange-300 focus-visible:text-orange-300 group/link text-base"
                             href="https://upstatement.com/blog/integrating-algolia-search-with-wordpress-multisite/"
                             target="_blank"
                             rel="noreferrer"
@@ -1161,7 +1163,7 @@ const HomePage = (): JSX.Element => {
                         <p className="-mt-1 text-sm font-semibold leading-6">2019</p>
                         <h3 className="-mt-1">
                           <a
-                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-orange-300 focus-visible:text-orange-300 group/link text-base"
                             href="https://upstatement.com/blog/building-a-headless-mobile-app-cms-from-scratch/"
                             target="_blank"
                             rel="noreferrer"
@@ -1195,65 +1197,8 @@ const HomePage = (): JSX.Element => {
                 </ul>
               </div>
             </section>
-            <footer className="max-w-md pb-16 text-sm text-slate-500 sm:pb-0">
-              <p>
-                Loosely designed in
-                <a
-                  href="https://www.figma.com/"
-                  className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Figma
-                </a>
-                and coded in
-                <a
-                  href="https://code.visualstudio.com/"
-                  className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Visual Studio Code
-                </a>
-                by yours truly. Built with
-                <a
-                  href="https://nextjs.org/"
-                  className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Next.js
-                </a>
-                and
-                <a
-                  href="https://tailwindcss.com/"
-                  className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Tailwind CSS
-                </a>
-                , deployed with
-                <a
-                  href="https://vercel.com/"
-                  className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Vercel
-                </a>
-                . All text is set in the
-                <a
-                  href="https://rsms.me/inter/"
-                  className="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Inter
-                </a>
-                typeface.
-              </p>
-            </footer>
+
+            <Footer />
           </main>
         </div>
       </div>

@@ -19,7 +19,7 @@ type RootLayoutProps = {
 
 const RootLayout = ({ children }: RootLayoutProps): JSX.Element => {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
         className={`leading-relaxed text-slate-900 antialiased selection:bg-orange-300 selection:text-orange-900 ${inter.className}`}
       >
