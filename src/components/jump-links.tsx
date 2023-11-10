@@ -3,7 +3,8 @@ import Link from "next/link";
 const links = [
   { href: "#about", text: "About" },
   { href: "#experience", text: "Experience" },
-  { href: "#projects", text: "Projects" }
+  { href: "#projects", text: "Projects" },
+  { href: "#writing", text: "Writing" }
 ];
 
 const JumpLinks = (): JSX.Element => {

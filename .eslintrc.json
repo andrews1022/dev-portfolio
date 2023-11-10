@@ -19,6 +19,7 @@
   },
   "plugins": ["react"],
   "rules": {
+    "@typescript-eslint/comma-dangle": ["warn", "never"],
     "@typescript-eslint/consistent-type-definitions": ["warn", "type"],
     "@typescript-eslint/member-delimiter-style": [
       "warn",
@@ -58,6 +59,7 @@
         "prefer": "type-imports"
       }
     ],
-    "no-trailing-spaces": "warn"
+    "no-trailing-spaces": "warn",
+    "@typescript-eslint/object-curly-spacing": ["warn", "always"]
   }
 }
