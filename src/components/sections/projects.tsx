@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import { MobileStickyHeading } from "@/components/mobile-sticky-heading";
+import { Pill } from "@/components/pill";
 import { SemiTransparentBackground } from "@/components/semi-transparent-background";
 
 import { ArrowRight } from "@/components/icons/arrow-right";
@@ -78,9 +79,7 @@ const Projects = (): JSX.Element => {
                       {project.technologies.map((technology) => {
                         return (
                           <li key={technology}>
-                            <span className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-500">
-                              {technology}
-                            </span>
+                            <Pill>{technology}</Pill>
                           </li>
                         );
                       })}
