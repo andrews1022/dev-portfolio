@@ -9,7 +9,7 @@ import { ArrowUpRight } from "@/components/icons/arrow-up-right";
 
 import { formatDate } from "@/lib/utils";
 
-import type { DevToPost } from "@/types/dev";
+import type { DevToPost } from "@/types/devTo";
 
 const getPosts = async (): Promise<DevToPost[]> => {
   const res = await fetch("https://dev.to/api/articles?username=andrews1022&per_page=3", {
@@ -39,7 +39,7 @@ const Writing = async (): Promise<JSX.Element> => {
     >
       <MobileStickyHeading>Writing</MobileStickyHeading>
 
-      <ul>
+      <ul className="group/list">
         {posts.length > 0
           ? posts.map((post) => {
               return (
