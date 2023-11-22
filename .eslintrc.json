@@ -60,6 +60,7 @@
       }
     ],
     "no-trailing-spaces": "warn",
-    "@typescript-eslint/object-curly-spacing": ["warn", "always"]
+    "@typescript-eslint/object-curly-spacing": ["warn", "always"],
+    "multiline-ternary": "off"
   }
 }
