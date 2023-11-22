@@ -1,8 +1,11 @@
 import { MobileStickyHeading } from "@/components/mobile-sticky-heading";
+import { Pill } from "@/components/pill";
 import { SemiTransparentBackground } from "@/components/semi-transparent-background";
 
 import { ArrowRight } from "@/components/icons/arrow-right";
 import { ArrowUpRight } from "@/components/icons/arrow-up-right";
+import { Link } from "@/components/icons/link";
+
 import { experience } from "@/data/experience";
 
 const Experience = (): JSX.Element => {
@@ -22,29 +25,26 @@ const Experience = (): JSX.Element => {
                 <SemiTransparentBackground />
 
                 <header
-                  className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
+                  className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-400 sm:col-span-2"
                   aria-label={exp.date}
                 >
                   {exp.date}
                 </header>
 
                 <div className="z-10 sm:col-span-6">
-                  <h3 className="font-medium leading-snug text-slate-200">
+                  <h3 className="font-medium leading-snug ">
                     <div>
                       <a
-                        className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-orange-300 focus-visible:text-orange-300 group/link text-base"
-                        href="https://www.apple.com/apple-music/"
+                        className="inline-flex items-baseline font-medium leading-tight hover:text-orange-300 focus-visible:text-orange-300 group/link text-base"
+                        href={exp.companyUrl}
                         target="_blank"
                         rel="noreferrer"
-                        aria-label="UI Engineer Co-op at Apple"
+                        aria-label={`${exp.role} at ${exp.company}`}
                       >
                         <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block" />
 
                         <span>
-                          UI Engineer Co-op ·{" "}
-                          <span className="inline-block">
-                            Apple <ArrowUpRight />
-                          </span>
+                          {exp.role} · {exp.company} <ArrowUpRight />
                         </span>
                       </a>
                     </div>
@@ -53,88 +53,30 @@ const Experience = (): JSX.Element => {
                   <p className="mt-2 text-sm leading-normal">{exp.description}</p>
 
                   <ul className="mt-2 flex flex-wrap" aria-label="Related links">
-                    <li className="mr-4">
-                      <a
-                        className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-orange-300 focus-visible:text-orange-300"
-                        href="https://developer.apple.com/documentation/musickitjs"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          className="mr-1 h-3 w-3"
-                          aria-hidden="true"
-                        >
-                          <path d="M12.232 4.232a2.5 2.5 0 013.536 3.536l-1.225 1.224a.75.75 0 001.061 1.06l1.224-1.224a4 4 0 00-5.656-5.656l-3 3a4 4 0 00.225 5.865.75.75 0 00.977-1.138 2.5 2.5 0 01-.142-3.667l3-3z"></path>
-                          <path d="M11.603 7.963a.75.75 0 00-.977 1.138 2.5 2.5 0 01.142 3.667l-3 3a2.5 2.5 0 01-3.536-3.536l1.225-1.224a.75.75 0 00-1.061-1.06l-1.224 1.224a4 4 0 105.656 5.656l3-3a4 4 0 00-.225-5.865z"></path>
-                        </svg>
-                        <span>MusicKit.js</span>
-                      </a>
-                    </li>
-                    <li className="mr-4">
-                      <a
-                        className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-orange-300 focus-visible:text-orange-300"
-                        href="https://9to5mac.com/2018/06/03/apple-music-embeddable-web-player-listen-browser/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          className="mr-1 h-3 w-3"
-                          aria-hidden="true"
-                        >
-                          <path d="M12.232 4.232a2.5 2.5 0 013.536 3.536l-1.225 1.224a.75.75 0 001.061 1.06l1.224-1.224a4 4 0 00-5.656-5.656l-3 3a4 4 0 00.225 5.865.75.75 0 00.977-1.138 2.5 2.5 0 01-.142-3.667l3-3z"></path>
-                          <path d="M11.603 7.963a.75.75 0 00-.977 1.138 2.5 2.5 0 01.142 3.667l-3 3a2.5 2.5 0 01-3.536-3.536l1.225-1.224a.75.75 0 00-1.061-1.06l-1.224 1.224a4 4 0 105.656 5.656l3-3a4 4 0 00-.225-5.865z"></path>
-                        </svg>
-                        <span>9to5Mac</span>
-                      </a>
-                    </li>
-                    <li className="mr-4">
-                      <a
-                        className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-orange-300 focus-visible:text-orange-300"
-                        href="https://www.theverge.com/2017/10/5/16433770/facebook-messenger-apple-music-bot-song-streaming"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                          className="mr-1 h-3 w-3"
-                          aria-hidden="true"
-                        >
-                          <path d="M12.232 4.232a2.5 2.5 0 013.536 3.536l-1.225 1.224a.75.75 0 001.061 1.06l1.224-1.224a4 4 0 00-5.656-5.656l-3 3a4 4 0 00.225 5.865.75.75 0 00.977-1.138 2.5 2.5 0 01-.142-3.667l3-3z"></path>
-                          <path d="M11.603 7.963a.75.75 0 00-.977 1.138 2.5 2.5 0 01.142 3.667l-3 3a2.5 2.5 0 01-3.536-3.536l1.225-1.224a.75.75 0 00-1.061-1.06l-1.224 1.224a4 4 0 105.656 5.656l3-3a4 4 0 00-.225-5.865z"></path>
-                        </svg>
-                        <span>The Verge</span>
-                      </a>
-                    </li>
+                    {exp.links.map((link) => {
+                      return (
+                        <li className="mr-4" key={link.title}>
+                          <a
+                            className="relative mt-2 inline-flex items-center text-sm font-medium text-slate-300 hover:text-teal-400 focus-visible:text-orange-300"
+                            href={link.url}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <Link /> <span>{link.title}</span>
+                          </a>
+                        </li>
+                      );
+                    })}
                   </ul>
+
                   <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
-                        Ember
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
-                        SCSS
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
-                        JavaScript
-                      </div>
-                    </li>
-                    <li className="mr-1.5 mt-2">
-                      <div className="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-300">
-                        MusicKit.js
-                      </div>
-                    </li>
+                    {exp.technologies.map((technology) => {
+                      return (
+                        <li className="mr-1.5 mt-2" key={technology}>
+                          <Pill>{technology}</Pill>
+                        </li>
+                      );
+                    })}
                   </ul>
                 </div>
               </div>

@@ -64,8 +64,8 @@ export const experience: Experience[] = [
     technologies: ["WordPress", "PHP", "SCSS", "LESS", "JavaScript", "Wireframing"],
     links: [
       {
-        title: "Opacity Design Group",
-        url: "https://www.opacitydesigngroup.com/"
+        title: "Paws for Hope",
+        url: "https://www.pawsforhope.org/"
       }
     ]
   }
